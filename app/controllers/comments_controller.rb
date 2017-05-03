@@ -5,8 +5,7 @@ class CommentsController < ApplicationController
   def create
     @link = Link.find(params[:link_id])
     @comment = @link.comments.new(comment_params)
-    @comment.user = User.find(params[:user_id])
-    
+    @comment.user = current_user
 
     respond_to do |format|
       if @comment.save
