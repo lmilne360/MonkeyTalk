@@ -6,7 +6,7 @@ Users are able to create an account by signing up, which will require a standard
 email and password in addition to the username to be displayed. This information
 can always be adjusted by going to the accounts page. Once authenticated, a user
 can make comments and vote on links posted by others as well as edit or share
-their own links. One can still view links without authentication however other
+their own links. Users are still able to view links without authentication, however, other
 options are restricted.
 
 ## Live Demo
