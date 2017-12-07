@@ -52,7 +52,7 @@ group :development do
 end
 
 group :production do
-  #gem 'pg'
+  gem 'pg'
  
  # Makes available on all platforms
   gem 'rails_12factor'
