@@ -5,7 +5,7 @@ topic (usually a link) in which others will be able to comment and vote on.
 Users are able to create an account by signing up, which will require a standard
 email and password in addition to the username to be displayed. This information
 can always be adjusted by going to the accounts page. Once authenticated, a user
-can make comment and vote on links posted by others as well as edit or chare
+can make comments and vote on links posted by others as well as edit or share
 their own links. One can still view links without authentication however other
 options are restricted.
 
@@ -23,7 +23,10 @@ A demo version of this project can be viewed
 
    #### \*Note: for ruby version >= 2.4, gems (particularly json) may need updating
 
-2. Sqlite3 is required for database storage
+2. Sqlite3 is required for database storage (development)
+
+3. PostgreSQL is required for production database
+
 
 ## Startup
 
