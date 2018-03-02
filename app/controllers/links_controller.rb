@@ -79,6 +79,9 @@ end
     # Use callbacks to share common setup or constraints between actions.
     def set_link
       @link = Link.find(params[:id])
+      rescue ActiveRecord::RecordNotFound
+        flash[:notice] = "This Link does not exist"
+        redirect_to :action => 'index'
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
